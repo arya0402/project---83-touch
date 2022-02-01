@@ -14,7 +14,7 @@ width_of_line = 1;
 if (width > 992) {
     document.getElementById("myCanvas").width = new_width;
     document.getElementById("myCanvas").height = new_height;
-    document.body.style, overflow = "hidden";
+    document.body.style.overflow = "hidden";
 }
 
 canvas.addEventListener("mousedown", my_mousedown);
