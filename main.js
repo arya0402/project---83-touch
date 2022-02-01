@@ -11,7 +11,7 @@ var mouseEvent = "empty";
 color = "black";
 width_of_line = 1;
 
-if (width < 992) {
+if (width < 480) {
     document.getElementById("myCanvas").width = new_width;
     document.getElementById("myCanvas").height = new_height;
     document.body.style.overflow = "hidden";
